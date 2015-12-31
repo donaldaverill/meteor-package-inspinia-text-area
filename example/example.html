@@ -1,0 +1,28 @@
+<head>
+  <title>Inspinia Text Area Example</title>
+</head>
+
+<body>
+  <h1>Inspinia Text Area Example!</h1>
+  Inspinia styles and Bootstrap are not set up for the example,
+  but the functionality is the same.
+  <br>
+  <br>
+  {{> formTemplate}}
+</body>
+
+<template name="formTemplate">
+  <form id="someForm">
+    {{> inspiniaTextArea
+      field="someText"
+      label="Some Text"
+      placeholder="Enter some words"
+      value=(formValue "someText")
+      maxLength="100"
+      onChange=fieldChanged
+      required=true
+      helpText='Some helpful information'
+    }}
+    <input type="submit">
+  </form>
+</template>

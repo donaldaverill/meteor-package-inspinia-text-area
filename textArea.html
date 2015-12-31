@@ -1,0 +1,18 @@
+<template name="inspiniaTextArea">
+  {{#unless skipLabel}}
+    <label>{{label}}</label>
+  {{/unless}}
+  <div class="input-group m-b" style="width:100%;">
+    <textarea class="form-control" data-field-name="{{field}}" placeholder="{{placeholder}}" maxlength={{maxLength}} disabled={{disabled}} required={{required}} style="resize:vertical;">{{value}}</textarea>
+  </div>
+  {{#if helpText}}
+    <span class="help-block m-b-none">{{helpText}}</span>
+  {{/if}}
+  {{#unless success}}
+    {{#if submitted}}
+      {{#if errorMessage}}
+        <div class="alert alert-danger" role="alert">{{errorMessage}}</div>
+      {{/if}}
+    {{/if}}
+  {{/unless}}
+</template>
