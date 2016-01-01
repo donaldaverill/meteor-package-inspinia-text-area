@@ -1,5 +1,9 @@
 # Blaze textarea component for the [Inspinia](https://wrapbootstrap.com/theme/inspinia-responsive-admin-theme-WB0R5L90S) admin theme.
 **Note:** Must include styles separately.
+### Installation
+```bash
+meteor add fourquet:inspinia-text-area
+```
 ### Example:
 ```html
 <!-- formTemplate.html -->
@@ -74,3 +78,11 @@ See [full example in the repository](https://github.com/fourquet/meteor-package-
   - If *success* is `true`, an error message may be displayed below the textarea.
 - *errorMessage*, String, Optional
   - An error message to be displayed if *success* is `false` and *submitted* is `true`.
+
+### Version
+0.0.1
+
+License
+----
+
+MIT
