@@ -61,7 +61,7 @@ See [full example in the repository](https://github.com/fourquet/meteor-package-
 - *label*, String, Required unless *skipLabel* is `true`.
   - The label for the input textarea.
 - *skipLabel*, Boolean, Optional.
-  - If `true`, the label will not be displayed. Additionally,  *label* will not be required.
+  - If `true`, the label will not be displayed. Additionally, *label* will not be required.
 - *required*, Boolean, Optional.
   - `true` if the textarea should be required for the form.
 - *disabled*, Boolean, Optional.
