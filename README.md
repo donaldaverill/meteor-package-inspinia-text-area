@@ -79,10 +79,8 @@ See [full example in the repository](https://github.com/fourquet/meteor-package-
 - *errorMessage*, String, Optional
   - An error message to be displayed if *success* is `false` and *submitted* is `true`.
 
-### Version
+#### Version
 0.0.1
 
-License
-----
-
+#### License
 MIT
